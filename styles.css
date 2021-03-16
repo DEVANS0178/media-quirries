@@ -7,6 +7,7 @@ nav{
     background: gray;
 
     text-align: center;
+    font-family: georgia, sans-serif;
 }
 
 nav a{
@@ -39,15 +40,17 @@ img{
     border:2px solid black;
 }
 
-
-
-
 @media screen and (min-width: 700px) {
+        .flexItem{
+          height: 400px;
+        }
+        .vertical{
+          width: 30%;
+        }
         img{
             width:30%;
             display: inline;
         }
-
         .vertical{
           width: 20%;
         }
