@@ -1,6 +1,35 @@
 body{
   padding: 0;
   margin: 0;
+  background: black;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 350px;
+}
+
+/* Styles for hero or feature */
+
+.hero{
+  background-image: url(img/hair-2537564_1920.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background stuff above */
+  /* moving stuff below */
+  position: relative;
+}
+
+.hero h2{
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
 }
 
 nav{
@@ -63,6 +92,9 @@ img{
 }
 
 @media screen and (min-width: 700px) {
+        .logo{
+          /* width: 350px; */
+        }
         img{
             width:30%;
             display: inline;
